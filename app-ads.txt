@@ -1,0 +1,6 @@
+# app-ads.txt for Relinx
+# This file authorizes Google AdMob to serve ads for this app
+# Publisher ID: ca-app-pub-5941977662892783
+# App Package: com.takitareq.linkbox
+
+google.com, pub-5941977662892783, DIRECT, f08c47fec0942fa0

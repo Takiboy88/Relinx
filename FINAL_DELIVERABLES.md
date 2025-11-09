@@ -99,9 +99,10 @@ Use the file: `app-release.aab` (9.1 MB)
 - Consider creating screenshots and feature graphics
 
 ### 4. **AdMob Configuration**
-- Replace test ad unit IDs with production IDs:
-  - Current: `ca-app-pub-3940256099942544/*` (test)
-  - Update to your actual AdMob account IDs
+- ✅ Production ad unit IDs configured:
+  - Main Screen Banner: `ca-app-pub-5941977662892783/1425740261`
+  - Links Screen & Inline Ads: `ca-app-pub-5941977662892783/1824910101`
+  - Status: Ready for monetization
 
 ---
 

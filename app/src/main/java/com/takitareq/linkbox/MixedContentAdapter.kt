@@ -98,7 +98,7 @@ class MixedContentAdapter(
             TYPE_AD -> {
                 val adView = AdView(parent.context)
                 adView.setAdSize(AdSize.BANNER)
-                adView.adUnitId = "ca-app-pub-3940256099942544/6300978111" // Test banner ad unit
+                adView.adUnitId = "ca-app-pub-5941977662892783/1824910101" // Inline banner ad unit
                 
                 // Set layout params for proper spacing
                 val layoutParams = RecyclerView.LayoutParams(
