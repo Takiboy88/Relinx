@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light theme -->
+    <style name="Theme.Relinx" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/linkbox_primary</item>
+        <item name="colorPrimaryVariant">@color/linkbox_primary_variant</item>
+        <item name="colorOnPrimary">@color/linkbox_on_primary</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/linkbox_secondary</item>
+        <item name="colorSecondaryVariant">@color/linkbox_secondary</item>
+        <item name="colorOnSecondary">@color/linkbox_on_secondary</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/linkbox_background</item>
+        <item name="colorSurface">@color/linkbox_surface</item>
+        <item name="colorOnBackground">@color/linkbox_on_background</item>
+        <item name="colorOnSurface">@color/linkbox_on_surface</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/linkbox_toolbar_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/linkbox_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    
+    <!-- Light toolbar theme -->
+    <style name="Theme.Relinx.Toolbar" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorControlNormal">@color/linkbox_toolbar_text_light</item>
+        <item name="android:textColorPrimary">@color/linkbox_toolbar_text_light</item>
+        <item name="android:textColorSecondary">@color/linkbox_toolbar_text_light</item>
+        <item name="actionMenuTextColor">@color/linkbox_toolbar_text_light</item>
+        <item name="colorOnSurface">@color/linkbox_toolbar_text_light</item>
+    </style>
+</resources>

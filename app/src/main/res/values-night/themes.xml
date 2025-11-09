@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme -->
+    <style name="Theme.Relinx" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/linkbox_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/linkbox_primary_variant_dark</item>
+        <item name="colorOnPrimary">@color/linkbox_on_primary_dark</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/linkbox_secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/linkbox_secondary_dark</item>
+        <item name="colorOnSecondary">@color/linkbox_on_secondary_dark</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/linkbox_background_dark</item>
+        <item name="colorSurface">@color/linkbox_surface_dark</item>
+        <item name="colorOnBackground">@color/linkbox_on_background_dark</item>
+        <item name="colorOnSurface">@color/linkbox_on_surface_dark</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/linkbox_toolbar_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/linkbox_background_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    
+    <!-- Dark toolbar theme -->
+    <style name="Theme.Relinx.Toolbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorControlNormal">@color/linkbox_toolbar_text_dark</item>
+        <item name="android:textColorPrimary">@color/linkbox_toolbar_text_dark</item>
+        <item name="android:textColorSecondary">@color/linkbox_toolbar_text_dark</item>
+        <item name="actionMenuTextColor">@color/linkbox_toolbar_text_dark</item>
+        <item name="colorOnSurface">@color/linkbox_toolbar_text_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle that fills the entire space -->
+    <path android:fillColor="@color/linkbox_primary"
+          android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"/>
+    
+    <!-- Main container/box shape -->
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M8,12 L40,12 L40,36 L8,36 Z"
+          android:strokeWidth="0"/>
+    
+    <!-- Link/chain icon elements -->
+    <path android:fillColor="@color/linkbox_primary"
+          android:pathData="M12,16 L20,16 L20,20 L12,20 Z"/>
+    
+    <path android:fillColor="@color/linkbox_primary"
+          android:pathData="M28,16 L36,16 L36,20 L28,20 Z"/>
+    
+    <!-- Connection lines -->
+    <path android:fillColor="@color/linkbox_primary"
+          android:pathData="M20,17 L28,17 L28,19 L20,19 Z"/>
+    
+    <!-- Box/storage elements -->
+    <path android:fillColor="@color/linkbox_primary"
+          android:pathData="M12,24 L36,24 L36,32 L12,32 Z"/>
+    
+    <!-- Inner details -->
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M14,26 L22,26 L22,28 L14,28 Z"/>
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M26,26 L34,26 L34,28 L26,28 Z"/>
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M14,29 L30,29 L30,30 L14,30 Z"/>
+    
+</vector>

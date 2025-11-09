@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Your custom high-resolution transparent logo -->
+    <item>
+        <bitmap 
+            android:src="@drawable/linkbox_logo_transparent_1024"
+            android:gravity="center" />
+    </item>
+</layer-list>

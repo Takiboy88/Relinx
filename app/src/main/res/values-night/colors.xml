@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar colors for dark theme -->
+    <color name="linkbox_toolbar_light">@color/linkbox_toolbar_dark</color>
+    <color name="linkbox_toolbar_text_light">@color/linkbox_toolbar_text_dark</color>
+</resources>

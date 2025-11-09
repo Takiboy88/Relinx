@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- LinkBox app colors - Light Theme -->
+    <color name="linkbox_primary">#FF2196F3</color>
+    <color name="linkbox_primary_variant">#FF1976D2</color>
+    <color name="linkbox_secondary">#FF03DAC6</color>
+    <color name="linkbox_background">#FFFFFFFF</color>
+    <color name="linkbox_surface">#FFFFFFFF</color>
+    <color name="linkbox_error">#FFCF6679</color>
+    <color name="linkbox_on_primary">#FFFFFFFF</color>
+    <color name="linkbox_on_secondary">#FF000000</color>
+    <color name="linkbox_on_background">#FF000000</color>
+    <color name="linkbox_on_surface">#FF000000</color>
+    <color name="linkbox_on_error">#FF000000</color>
+    
+    <!-- LinkBox app colors - Dark Theme -->
+    <color name="linkbox_primary_dark">#FF64B5F6</color>
+    <color name="linkbox_primary_variant_dark">#FF42A5F5</color>
+    <color name="linkbox_secondary_dark">#FF80CBC4</color>
+    <color name="linkbox_background_dark">#FF121212</color>
+    <color name="linkbox_surface_dark">#FF1E1E1E</color>
+    <color name="linkbox_error_dark">#FFCF6679</color>
+    <color name="linkbox_on_primary_dark">#FF000000</color>
+    <color name="linkbox_on_secondary_dark">#FF000000</color>
+    <color name="linkbox_on_background_dark">#FFFFFFFF</color>
+    <color name="linkbox_on_surface_dark">#FFFFFFFF</color>
+    <color name="linkbox_on_error_dark">#FF000000</color>
+    
+    <!-- Toolbar colors -->
+    <color name="linkbox_toolbar_light">#E3F2FD</color>
+    <color name="linkbox_toolbar_dark">#FF263238</color>
+    <color name="linkbox_toolbar_text_light">#FF000000</color>
+    <color name="linkbox_toolbar_text_dark">#FFFFFFFF</color>
+    
+    <!-- Icon selection -->
+    <color name="selected_icon_background">#33E3F2FD</color>
+</resources>
