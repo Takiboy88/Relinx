@@ -2,7 +2,6 @@ package com.takitareq.linkbox
 
 import android.content.Context
 import android.net.Uri
-import android.os.Environment
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.takitareq.linkbox.data.*
@@ -44,7 +43,7 @@ class ExportImportManager(private val context: Context, private val database: Li
         
         val json = gson.toJson(exportData)
         val fileName = "linkbox_backup_${SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())}.json"
-        val file = File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName)
+        val file = File(context.filesDir, fileName)
         
         file.writeText(json)
         file
@@ -56,7 +55,7 @@ class ExportImportManager(private val context: Context, private val database: Li
         
         val categoryMap = categories.associateBy { it.id }
         val fileName = "linkbox_links_${SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())}.csv"
-        val file = File(context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName)
+        val file = File(context.filesDir, fileName)
         
         val csvContent = StringBuilder()
         csvContent.append("Category,Title,URL,Notes,Date Added\n")
